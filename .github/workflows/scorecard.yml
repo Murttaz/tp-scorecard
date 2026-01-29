@@ -16,7 +16,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Run Scorecard
-        uses: ossf/scorecard-action@v2.4.0  # Version plus précise pour éviter l'erreur
+        uses: ossf/scorecard-action@v2
         with:
           results_file: results.sarif
           results_format: sarif
